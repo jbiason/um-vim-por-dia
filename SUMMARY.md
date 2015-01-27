@@ -8,3 +8,4 @@
 * [Dia 4: Registradores](registers.md)
 * [Dia 5: Adicionando texto](adding_text.md)
 * [Dia 6: Yank'n'paste](yank_and_paste.md)
+
