@@ -102,3 +102,29 @@ Julio Biason
 9:32 AM
 Fernando Coelho
 hmm, ai faz sentido
+
+
+mas é só busca de grupos mesmo.
+9:32 AM
+Julio Biason
+E voltando pra ranges: Se vocês marcarem um bloco de texto com modo visual e pressionarem ":", a linha de comando vai ficar ":'<,'>"
+9:32 AM
+Julio Biason
+"'<" e "'>" são marcadores especiais, indicando o início e fim do bloco visual.
+9:33 AM
+Julio Biason
+E percebam que eu falei "marcadores".
+9:33 AM
+Julio Biason
+Além do número de linha, vocês podem usar marcadores para marcar a região que a troca deve ser feita.
+9:33 AM
+Julio Biason
+Se vocês colocarem um marcador "a" numa linha e um marcador "b" em outra e quiserem trocar todas as ocorrência dentro desse espaço, ":'a,'bs/original/novo" irá fazer isso.
+9:34 AM
+Julio Biason
+Só nào funciona com os marcadores em maiúsculas, que atravessam arquivos ;)
+9:34 AM
+Delete
+Julio Biason
+Essa foi a dica de vim do dia.
+
