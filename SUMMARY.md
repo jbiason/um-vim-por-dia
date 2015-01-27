@@ -7,4 +7,4 @@
 * [Dia 3: Pulando arquivos inteiros e Removendo texto](jumping_files_and_removing_text.md)
 * [Dia 4: Registradores](registers.md)
 * [Dia 5: Adicionando texto](adding_text.md)
-
+* [Dia 6: Yank'n'paste](yank_and_paste.md)
