@@ -12,4 +12,4 @@
 * [Dia 8: Modo visual](visual_mode.md)
 * [Dia 9: Repetindo](repetitions.md)
 * [Dia 10: Marcadores](markers.md)
-
+* [Dia 11: Auto-complete](autocomplete.md)
