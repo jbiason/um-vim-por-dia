@@ -6,3 +6,4 @@
 * [Dia 2: Pulando Palavras e Indo Aos Cantos](words_corners.md)
 * [Dia 3: Pulando arquivos inteiros e Removendo texto](jumping_files_and_removing_text.md)
 * [Dia 4: Registradores](registers.md)
+
