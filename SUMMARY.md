@@ -11,3 +11,4 @@
 * [Dia 7: Change e Substitute](c_and_s.md)
 * [Dia 8: Modo visual](visual_mode.md)
 * [Dia 9: Repetindo](repetitions.md)
+
