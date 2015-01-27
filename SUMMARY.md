@@ -9,4 +9,4 @@
 * [Dia 5: Adicionando texto](adding_text.md)
 * [Dia 6: Yank'n'paste](yank_and_paste.md)
 * [Dia 7: Change e Substitute](c_and_s.md)
-
+* [Dia 8: Modo visual](visual_mode.md)
