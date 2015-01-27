@@ -5,3 +5,4 @@
 * [Dia 1: Find & Till](find_till.md)
 * [Dia 2: Pulando Palavras e Indo Aos Cantos](words_corners.md)
 * [Dia 3: Pulando arquivos inteiros e Removendo texto](jumping_files_and_removing_text.md)
+
