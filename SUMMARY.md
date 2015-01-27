@@ -15,3 +15,4 @@
 * [Dia 11: Auto-complete](autocomplete.md)
 * [Dia 12: Vundle](vundle.md)
 * [Dia 13: Tags](tags.md)
+
