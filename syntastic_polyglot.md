@@ -35,7 +35,7 @@ Julio Biason
 
 13:16
 
-Para instalar usando o Vundle,
+Para instalar usando o [Vundle](vundle.md),
 Plugin 'sheerun/vim-polyglot'
 
 Julio Biason
