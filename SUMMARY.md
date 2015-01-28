@@ -21,4 +21,4 @@
 * [Dia 17: Pesquisando](searching.md)
 * [Dia 18: Grep](grep.md)
 * [Dia 19: Search & Replace e Ranges](search_replace_ranges.md)
-
+* [Dia 20: Auto-comandos](autocommands.md)
