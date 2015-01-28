@@ -23,3 +23,4 @@
 * [Dia 19: Search & Replace e Ranges](search_replace_ranges.md)
 * [Dia 20: Auto-comandos](autocommands.md)
 * [Dia 21: Modelines](modelines.md)
+
