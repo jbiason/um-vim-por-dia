@@ -26,3 +26,4 @@
 * [Dia 22: Undo e Redo](undo_redo.md)
 * [Dia 23: Syntastic e Polyglot](syntastic_polyglot.md)
 * [Dia 24: UltiSnips e Vim-Snippets](ultisnips_vimsnippets.md)
+
