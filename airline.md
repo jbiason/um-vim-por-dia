@@ -31,15 +31,3 @@ Julio Biason
 E mais ainda: Se vocês estiverem usando o Fugitive (outro plugin que eu vou falar mais tarde), ele mostra as informações do Git: branch e se os arquivos locais tem alteração com relação ao repositório.
 E essa foi a dica de vim do dia.
 09:42
-
-    Andrei Patricio
-    Bruna Mattos
-    Cleiton Marques
-    Cristiane Bellenzier Piaia
-    Fernando Coelho
-    Julio Biason
-    Ulisses Fernandes
-    Fausto Blanco
-
-Attachment
-	 
