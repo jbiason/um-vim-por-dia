@@ -42,4 +42,6 @@ Ainda, o Airline que eu falei ontem tem suporte ao fugitive. Quando os dois tive
 (Tem um outro plugin que mostra o status da linha com relação ao repositório -- alterado, ainda não commitado -- mas não lembro o nome. assim que eu lembrar, eu aviso)
 09:01
 Julio Biason
+
+https://github.com/airblade/vim-gitgutter
 e essa foi a dica de vim do dia.
