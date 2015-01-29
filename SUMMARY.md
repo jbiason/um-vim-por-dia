@@ -27,4 +27,4 @@
 * [Dia 23: Syntastic e Polyglot](syntastic_polyglot.md)
 * [Dia 24: UltiSnips e Vim-Snippets](ultisnips_vimsnippets.md)
 * [Dia 25: Airline](airline.md)
-
+* [Dia 26: Fugitive](fugitive.md)
