@@ -30,4 +30,4 @@
 * [Dia 25: Airline](airline.md)
 * [Dia 26: Fugitive](fugitive.md)
 * [Dia 27: Vim-Commentary](vim-commentary.md)
-
+* [Dia 28: Autopairs](autopairs.md)
