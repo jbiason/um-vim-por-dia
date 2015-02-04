@@ -32,4 +32,4 @@
 * [Dia 27: Vim-Commentary](vim-commentary.md)
 * [Dia 28: Autopairs](autopairs.md)
 * [Dia 29: Ctrlp](ctrlp.md)
-
+* [Dia 30: Vim-Multiple-Cursors](vimmultiplecursors.md)
