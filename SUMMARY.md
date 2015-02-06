@@ -35,3 +35,4 @@
 * [Dia 30: Vim-Multiple-Cursors](vimmultiplecursors.md)
 * [Dia 31: Set paste](setpaste.md)
 * [Dia 32: Spelling](spell.md)
+
