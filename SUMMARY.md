@@ -33,4 +33,4 @@
 * [Dia 28: Autopairs](autopairs.md)
 * [Dia 29: Ctrlp](ctrlp.md)
 * [Dia 30: Vim-Multiple-Cursors](vimmultiplecursors.md)
-
+* [Dia 31: Set paste](setpaste.md)
