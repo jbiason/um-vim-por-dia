@@ -1,21 +1,11 @@
 # Dia 11: Auto-complete
 
-ok, dica de vim do dia: auto-complete
-9:02 AM
-Julio Biason
-ao contrário de outros editores (*cough*sublime*cough*) que ficam enchendo o saco colocando um auto-complete a cada letra digitada, no vim tu precisa usar um comando pra fazer o auto-complete
-9:02 AM
-Julio Biason
-no modo de inserção, Ctrl+P vai tentar completar o resto da palavra digitada com uma palavra que aparece antes.
-9:03 AM
-Julio Biason
-Ctrl+N, também no modo de inserção, vai tentar completar com uma palavra que aparece depois da posição atual.
-9:03 AM
-Julio Biason
-ambos os comando dão a volta em todo o arquivo; assim, ambos mostram a mesma coisa, só mudando a ordem.
-9:04 AM
-Julio Biason
-Ctrl+P e Ctrl+N também olham outros arquivos que estejam abertos (e dependendo de plugins, até olhando arquivos que estejam como #includes)
-9:05 AM
-Julio Biason
-essa foi a dica de vim do dia.
+Ao contrário de alguns outros editores de texto por aí, que costumam ficar fazendo autocomplete o tempo todo ocupando espaço visual de código o tempo todo, no VIM é necessário que essa funcionalidade seja selecionada cada vez que você ficar perdido.
+
+No modo de inserção, `[C-p]` irá tentar completar o resto da palavra digitada com o que aparece antes no texto.
+
+`[C-n]`, também no modo de inserção, irá completar o resto da palavra digitada com o que aparece antes no texto.
+
+Ambos os comandos dão a volta em todo o arquivo; assim, ambos mostram o mesmo resultado, mudando apenas a ordem das possível palavras qu ecompletam o texto. E, no caso de haver apenas uma possibilidade, ambos vão completar imediantamente; havendo mais de uma possbilidade, será apresentado um menu com todas as opções.
+
+Ainda, `[C-p]` e `[C-n]` também "olham" em outros arquivos abertos (em splits ou abas).
