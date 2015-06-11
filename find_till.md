@@ -16,4 +16,4 @@ e o VIM irá sinalizar o erro.
 
 Vim aceita composição de comandos (mais sobre isso mais pra frente), e
 também permite que seja definido o número de vezes que um comando pode ser
-executado. Por exemplo, `[2][f][.]" vai pular para o *segundo* ponto na linha.
+executado. Por exemplo, `[2][f][.]` vai pular para o *segundo* ponto na linha.

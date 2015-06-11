@@ -1,256 +1,42 @@
 # Dia 22: Undo e Redo
 
-episódio de hoje: undo e redo
-
-Julio Biason
-	
-
-8:39
-
-acho que não preciso explicar o que diabos é o undo, né?
-
-Andrei Patricio
-	
-
-8:39
-
-no..
-
-Julio Biason
-	
-
-8:40
-
-no vim, para desgazer alguma coisa, vocês podem usar "u" ou ":undo"
-
-Julio Biason
-	
-
-8:40
-
-aí entra uma questão de VIM vs VI (sem "m"): No vim, para continuar desfazendo, vocês podem continuar usando "u" ou "." (lembrando que "," repete o último comando de alteração de texto e, obviamente, desfazer coisas alteradas é uma alteração de texto)
-
-Julio Biason
-	
-
-8:41
-
-No vi (ou vim em modo de compatibilidade), quando vocês usando "u", ele faz o undo; quando usam "u" de novo, ele desfaz o undo. pra continuar fazendo undo, precisa usar ".".
-
-Julio Biason
-	
-
-8:42
-
-Para desfazer o undo no VIM (ou, basicamente, "redo"), é usando Ctrl-R.
-
-Julio Biason
-	
-
-8:42
-
-nada de novo ae pra quem tá usando VIM a algum tempo.
-
-Cristiane Bellenzier Piaia
-	
-
-8:42
-
-ta com a lingua presa até digitando Julio? hihihi
-
-Julio Biason
-	
-
-8:43
-
-eu tô caindo de sono :(
-
-Fernando Coelho
-	
-
-8:43
-
-não tinha uma feature para voltar num ponto do tempo?
-
-Julio Biason
-	
-
-8:43
-
-ANYWAY
-
-Julio Biason
-	
-
-8:43
-
-PORRA FERNANDO
-
-Julio Biason
-	
-
-8:43
-
-FICA ESTRAGANDO AS SURPRESAS
-
-Julio Biason
-	
-
-8:43
-
-sim, tem
-
-Fernando Coelho
-	
-
-8:43
-
-sorry =/
-
-Julio Biason
-	
-
-8:43
-
-":earlier 5m" retorna o texto pro estado que tava a 5 minutos atrás.
-
-Cristiane Bellenzier Piaia
-	
-
-8:44
-
-hihihiihihihi
-
-Julio Biason
-	
-
-8:44
-
-":earlier 10d" retorna o texto pro estado que tava a 10 dias atrás.
-
-Cristiane Bellenzier Piaia
-	
-
-8:44
-
-tinha que ser o Fernando!
-
-Julio Biason
-	
-
-8:44
-
-pra avançar nesse modo, ":later 5m" e ":later 10d"
-
-Fernando Coelho
-	
-
-8:44
-
-próxima vez que o Fausto vier eu vou pedir para sair do projeto, ao invés do Júlio, mimimi
-
-Julio Biason
-	
-
-8:45
-
-só existe um problema:
-
-Ulisses Fernandes
-	
-
-8:45
-
-hahaha
-
-Julio Biason
-	
-
-8:45
-
-esse controle de tempo só dura o tempo que vocês ficarem com o VIM aberto: se o VIM for fechado, as alterações são perdidas.
-
-Julio Biason
-	
-
-8:45
-
-... a não ser que vocês definam um undofile
-
-Julio Biason
-	
-
-8:46
-
-se vocês colocarem um "set undofile", o VIM vai manter um arquivo com todas as alterações do texto, permitindo undo e redo mesmo depois que vocês já fecharam um arquivo.
-
-Julio Biason
-	
-
-8:47
-
-o vim também tem um lance de "árvores de undo"
-
-Julio Biason
-	
-
-8:47
-
-... que basicamente são "branchs" com versões do teu texto.
-
-Cristiane Bellenzier Piaia
-	
-
-8:47
-
-nada disso Fernando! Ninguém vai sair de projeto! O Julio também não quer mais... ele vai tirar férias e pronto;
-
-Julio Biason
-	
-
-8:48
-
-por exemplo, se vocês fizerem algumas alterações, fizerem dois undos, e colocarem algo novo, isso pode ser visto como um branch no texto: no ponto dos dois undos, foi criado um branch onde as coisas novas tão num branch separado.
-
-Julio Biason
-	
-
-8:48
-
-tem um plugin pro vim que mostra isso de forma visual (porque o comando pra ver isso, ":undolist", não é NADA visual)
-
-Julio Biason
-	
-
-8:49
-
-(eu só tô procurando ele agora)
-
-Julio Biason
-	
-
-8:49
-
-tada! http://sjl.bitbucket.org/gundo.vim/
-
-Julio Biason
-	
-
-8:50
-
-se vocês rolarem um pouco pra baixo, tem um "gráfico" da árvore de undo
-
-Julio Biason
-	
-
-8:50
-
-eu nunca usei, então boa sorte ;)
-
-Julio Biason
-	
-
-8:51
-
-e essa foi a dica de vim do dia.
- 		
+Undo, como todos sabem, desfaz o que foi digitado ou a última alteração. Para
+desfazer no VIM, pode ser usado `[u]` ou `:undo`.
+
+A título de curiosidade, existe uma diferença entre o VI original e o VIM: No
+VIM, para continuar desfazendo, basta continuar usando `[u]` ou `[.]`
+(lembrando que `[.]` repete o último comando de alteração de texto e que
+desfazer coisas realmente altera o texto). No VI original (ou se o VIM estiver
+configurado para o modo de compatibilidade), o primeiro `[u]` ira desfazer o
+que foi feito; o próximo `[u]` irá desfazer o primeiro undo, e retornar o que
+foi feito; a única forma de fazer undo contínuo no VI é usar `[u]` no começo e
+continuar desfazendo com `[.]`.
+
+Para desfazer o undo no VIM (o que normalmente é chamado de "redo"), é
+necessário usar `[C-r]`.
+
+O undo do VIM também permite retornar em pontos específicos do tempo na edição
+do arquivo. `:earlier 5m` irá retornar para o mesmo conteúdo de 5 minutos
+atrás.  `:earlier 10d` retorna o conteúdo para o que havia a 10 dias atrás.
+Também é possível avancar no tempo com `:later 5m` ou `:later 10d`, embora não
+seja possível fazer com o que o VIM crie o conteúdo do arquivo puxando coisas
+do futuro (se hoje você abrir um arquivo e tentar `:later 1y` para verificar
+como o arquivo irá ficar daqui a um ano, nada irá acontecer).
+
+Com undos e redos, o VIM consegue manter "árvore de undo". O que acontece é
+basicamente o seguinte: Imagine que a edição de um arquivo é uma linha
+contínua. Ao fazer um undo e uma nova alteração, é criado uma nova linha do
+tempo para o arquivo (basicamente, o que os sistemas de controle de versão
+chamam de "branching").
+
+Para ver a lista de alterações no tempo, existe o comando `:undolist`. Ele irá
+mostrar exatamente quantas alterações tiverem no espaço do tempo e quando foi a
+última alteração. Entretanto, essa visualização não é visual, mostrando os
+branches criados. Para isto, existe o plugin
+[GUndo](http://sjl.bitbucket.org/gundo.vim/), que utiliza essa informação
+temporal para mostrar exatamente onde a árvore de undo se divide.
+
+E, por último, o VIM, por padrão, não guarda informações fora da edição. Se
+houverem alterações no arquivo e o VIM for encerrado, ao reabrir o arquivo,
+todas as informações de undo serão perdidas. Para contornar esse problema, é
+necessário usar a configuração de "undofile" com `set undofile` no vimrc.
