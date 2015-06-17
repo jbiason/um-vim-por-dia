@@ -1,30 +1,16 @@
 # Dia 6: Yank'n'paste
 
-A gente tava falando de excluir e ir pro registrador, mas não falamos de yank'n'paste
-no vim tem yank'n'paste ao invés de copy'n'paste, mas só porque o comando usando é o "y".
-10:12 AM
-Julio Biason
-funciona exatamente como o "d": "yy" copia a linha atual pra área de transferência, "y2w" copia as duas próximas palavras e assim por diante.
-10:12 AM
-Julio Biason
-pra fazer paste, ";p".
-10:12 AM
-Julio Biason
-";p" faz um paste *depois* do cursor, na verdade.
-10:13 AM
-Julio Biason
-pra fazer *antes*, usa-se ";p"
-10:13 AM
-Julio Biason
-e registradores funcionam com "y" assim como funcionam com "d".
-10:13 AM
-Delete
-Julio Biason
-"ayy
-"ap
-10:14 AM
-Julio Biason
-não existe diferença entre "ap e "Ap, no entanto.
-10:14 AM
-Julio Biason
-essa foi a dica de vim do dia
+O Vim tem um sistema de copy'n'paste chamado "yank'n'paste". O motivo é que
+o comando para a cópia é o `[y]` ao invés de `[c]`.
+
+`[y]` funciona exatamente como o `[d]`: `[y][y]` copia a linha atual pra área
+de transferência, `[2][y][w]` copia as duas próximas palavras e assim por
+diante.
+
+Para colar o texto (paste), existe o `[p]`. Apenas cuide porque o vim começa
+a fazer o paste *depois* do cursor. Para colar a partir de exatemente onde
+está o cursor, use `[P]`.
+
+Registradores funcionam com `[y]` assim como funcionam com `[d]`:
+`["][a][y][y]` copia a linha inteira para o registrador "a", `["][a][p]` irá
+fazer o paste desta linha, etc.
