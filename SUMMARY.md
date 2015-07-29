@@ -4,7 +4,7 @@
 * [Notações](notations.md)
 * [Antes de começar](antes.md)
 
-**VIM Básico**
+## Vim Básico
 
 * [Dia 1: Find & Till](find_till.md)
 * [Dia 2: Pulando Palavras e Indo Aos Cantos](words_corners.md)
@@ -28,7 +28,7 @@
 * [Dia 20: Modelines](modelines.md)
 * [Dia 21: Undo e Redo](undo_redo.md)
 
-**Plugins**
+## Plugins
 
 * [Dia 1: Vundle](vundle.md)
 * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
