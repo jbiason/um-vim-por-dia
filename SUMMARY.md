@@ -1,4 +1,4 @@
-# Summary
+    # Summary
 
 * [Introdução](README.md)
 * [Notações](notations.md)
@@ -25,15 +25,16 @@
     * [Dia 19: Auto-comandos](autocommands.md)
     * [Dia 20: Modelines](modelines.md)
     * [Dia 21: Undo e Redo](undo_redo.md)
-* [Dia 1: Vundle](vundle.md)
-* [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
-* [Dia 3: UltiSnips e Vim-Snippets](ultisnips_vimsnippets.md)
-* [Dia 4: Airline](airline.md)
-* [Dia 5: Fugitive](fugitive.md)
-* [Dia 6: Vim-Commentary](vim-commentary.md)
-* [Dia 7: Autopairs](autopairs.md)
-* [Dia 8: Ctrlp](ctrlp.md)
-* [Dia 9: Vim-Multiple-Cursors](vimmultiplecursors.md)
-* [Dia 10: Set paste](setpaste.md)
-* [Dia 11: Spelling](spell.md)
+* Plugins:
+    * [Dia 1: Vundle](vundle.md)
+    * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
+    * [Dia 3: UltiSnips e Vim-Snippets](ultisnips_vimsnippets.md)
+    * [Dia 4: Airline](airline.md)
+    * [Dia 5: Fugitive](fugitive.md)
+    * [Dia 6: Vim-Commentary](vim-commentary.md)
+    * [Dia 7: Autopairs](autopairs.md)
+    * [Dia 8: Ctrlp](ctrlp.md)
+    * [Dia 9: Vim-Multiple-Cursors](vimmultiplecursors.md)
+    * [Dia 10: Set paste](setpaste.md)
+    * [Dia 11: Spelling](spell.md)
 
