@@ -25,6 +25,8 @@
     * [Dia 19: Auto-comandos](autocommands.md)
     * [Dia 20: Modelines](modelines.md)
     * [Dia 21: Undo e Redo](undo_redo.md)
+    * [Dia 22: Set paste](setpaste.md)
+    * [Dia 23: Spelling](spell.md)
 * Plugins:
     * [Dia 1: Vundle](vundle.md)
     * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
@@ -35,6 +37,4 @@
     * [Dia 7: Autopairs](autopairs.md)
     * [Dia 8: Ctrlp](ctrlp.md)
     * [Dia 9: Vim-Multiple-Cursors](vimmultiplecursors.md)
-    * [Dia 10: Set paste](setpaste.md)
-    * [Dia 11: Spelling](spell.md)
 
