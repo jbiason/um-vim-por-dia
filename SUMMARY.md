@@ -3,9 +3,6 @@
 * [Introdução](README.md)
 * [Notações](notations.md)
 * [Antes de começar](antes.md)
-
-## Vim Básico
-
 * [Dia 1: Find & Till](find_till.md)
 * [Dia 2: Pulando Palavras e Indo Aos Cantos](words_corners.md)
 * [Dia 3: Pulando arquivos inteiros e Removendo texto](jumping_files_and_removing_text.md)
@@ -27,9 +24,6 @@
 * [Dia 19: Auto-comandos](autocommands.md)
 * [Dia 20: Modelines](modelines.md)
 * [Dia 21: Undo e Redo](undo_redo.md)
-
-## Plugins
-
 * [Dia 1: Vundle](vundle.md)
 * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
 * [Dia 3: UltiSnips e Vim-Snippets](ultisnips_vimsnippets.md)
