@@ -27,6 +27,7 @@
     * [Dia 21: Undo e Redo](undo_redo.md)
     * [Dia 22: Set paste](setpaste.md)
     * [Dia 23: Spelling](spell.md)
+    * 
 * Plugins:
     * [Dia 1: Vundle](vundle.md)
     * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
