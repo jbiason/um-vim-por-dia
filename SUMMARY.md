@@ -29,6 +29,9 @@
     * [Dia 23: Spelling](spell.md)
     * [Dia 24: Visual Around](visual_around.md)
     * [Dia 25: Ajustando o modo visual](moving_visual.md)
+	* [Dia 26: O "guia"](leader.md)
+	* [Dia 27: Mapas de teclado](map.md)
+	* [Dia 28: Diffs](vimdiff.md)
 * Plugins:
     * [Dia 1: Vundle](vundle.md)
     * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
@@ -39,4 +42,3 @@
     * [Dia 7: Autopairs](autopairs.md)
     * [Dia 8: Ctrlp](ctrlp.md)
     * [Dia 9: Vim-Multiple-Cursors](vimmultiplecursors.md)
-
