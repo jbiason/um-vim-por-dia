@@ -32,6 +32,7 @@
 	* [Dia 26: O "guia"](leader.md)
 	* [Dia 27: Mapas de teclado](map.md)
 	* [Dia 28: Diffs](vimdiff.md)
+	* [Dia 29: Quickfix automático](vim-q.md)
 * Plugins:
     * [Dia 1: Vundle](vundle.md)
     * [Dia 2: Syntastic e Polyglot](syntastic_polyglot.md)
